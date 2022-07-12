@@ -144,13 +144,13 @@ List of resources I've used for this project.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ReallyFatYoshi/mcbe-functions-transpiler.svg?style=for-the-badge
 [contributors-url]: https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ReallyFatYoshi/mcbe-functions-transpiler.svg?style=for-the-badge
 [forks-url]: https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ReallyFatYoshi/mcbe-functions-transpiler?style=for-the-badge
 [stars-url]: https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ReallyFatYoshi/mcbe-functions-transpiler.svg?style=for-the-badge
 [issues-url]: https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/ReallyFatYoshi/mcbe-functions-transpiler.svg?style=for-the-badge
 [license-url]: https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/blob/master/LICENSE.txt
