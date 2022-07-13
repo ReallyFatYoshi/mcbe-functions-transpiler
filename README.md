@@ -62,8 +62,6 @@
 
 ### Usage
 
-Windows users can use the exe.
-
 1. Clone the repo
    ```sh
    git clone https://github.com/ReallyFatYoshi/mcbe-functions-transpiler.git
