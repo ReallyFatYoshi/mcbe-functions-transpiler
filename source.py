@@ -3,7 +3,7 @@
 # Author: Knight
 # Github: https://github.com/ReallyFatYoshi
 # LICENCE: MIT
-# Copyright 2020(c)
+# Copyright 2022(c)
 
 import os
 import shutil
@@ -12,7 +12,7 @@ import progressbar
 from time import sleep
 from os import path 
 
-print('\n#Version: 0.1.0\n# Author: Knight\n# Github: https://github.com/ReallyFatYoshi\n# LICENCE: MIT\n# Copyright 2020(c)\n')
+print('\n#Version: 0.1.0\n# Author: Knight\n# Github: https://github.com/ReallyFatYoshi\n# LICENCE: MIT\n# Copyright 2022(c)\n')
 base = input('Behavior pack directory: ')
 dir = path.join(base,'functions')
 
@@ -91,4 +91,4 @@ for file in dirs:
 # Author: Knight
 # Github: https://github.com/ReallyFatYoshi
 # LICENCE: MIT
-# Copyright 2020(c)
+# Copyright 2022(c)
