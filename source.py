@@ -42,29 +42,31 @@ else:
             foundDir = False
 
 #Create Backup
+print("\n"*100)
 if (path.isdir(path.join(base,'old-functions'))):
     input('"old-functions" folder already exist.\nPress enter to continue...\nWARNING continuing will replace the "old-functions" folder with a new one.')
     shutil.rmtree(path.join(base,'old-functions'))
+print("\n"*100)
 shutil.copytree(dir, path.join(base,'old-functions'))
 
 #Transpile Function
 def transpile(file):
-    
     f = open(file,'r')
     strd = ""
+    regex1 = r"(?<=execute)( +)(\"|\@)(\d|\w|\_|\{|\}|\=|\!| |\[|\]|\,)+ "
+    regex2 = r"execute( +)(\"|\@)(\d|\w|\_|\{|\}|\=|\!| |\[|\]|\,)+ ((\~)?(\+|\-)?(\d)?( +)?){3}(summon|tp|teleport|setblock|fill|particle|sound)"
+    regex3 = r"execute( +)(\"|\@)(\d|\w|\_|\{|\}|\=|\!| |\[|\]|\,)+ ((\~)?(\+|\-)?(\d)?( +)?){3}"
+    # regex4 = r'^execute( +)(\"|\@)(\d|\w|\_|\{|\}|\=|\!| |\[|\]|\,)+ ((\~)?(\+|\-)?(\d)?( +)?){3}'
+
     for line in f.readlines():
         newStr = ""
-        if re.search('^execute .+ ~ ~ ~',line):
-            regex1 = r"(?<=execute)( )+(\d|\w|\_|\"|\@)+"
-            regex2 = r"execute (\d|\w|\_|\"|\@)+ (\~( +)?){3}( +)?(summon|tp|teleport|setblock|fill)"
-            regex3 = r"execute (\d|\w|\_|\"|\@)+ (\~( +)?){3}( +)"
-
-            line = line.strip()
+        line = line.strip()
+        if re.match(regex3,line):
             selector = re.search(regex1,line)
             location = re.search(regex2,line)
             cmd = re.search(regex3,line)
             
-            cmd = line.replace(cmd[0].strip(),"").strip()
+            cmd = line.replace(str(cmd[0]),"").strip()
 
             newStr = "execute as"+selector[0]
             if location:
