@@ -82,7 +82,7 @@
 
 - [ ] Add Changelog
 - [ ] Add an update notification for the exe.
-- [ ] Add support for nested execute's.
+<!-- - [ ] Add support for nested execute's. -->
 
 See the [open issues](https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/issues) for a full list of proposed features (and known issues).
 
