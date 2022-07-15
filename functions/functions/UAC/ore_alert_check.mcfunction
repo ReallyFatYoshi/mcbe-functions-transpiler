@@ -1,0 +1,1 @@
+execute as @s[tag=staffstatus]  run function UAC/asset/ore_alert_check_asset

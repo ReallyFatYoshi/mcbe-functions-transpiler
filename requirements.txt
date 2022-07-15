@@ -1,0 +1,2 @@
+pyinstaller==5.2
+progressbar2==4.0.0
