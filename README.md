@@ -34,7 +34,8 @@
   <h3 align="center">MCBE-FUNCTIONS-TRANSPILER</h3>
 
   <p align="center">
-    An awesome program used to transpile your functions to the upcoming Minecraft Java Edition command parity features.
+    An awesome program used to convert your functions to the new Minecraft Java Edition execute command parity feature.
+    Convert all execute commands to valid 1.19.10 experimental creator feature command format.
     <br />
     <br />
     <a href="https://github.com/ReallyFatYoshi/mcbe-functions-transpiler/tree/beta">View Demo</a>
